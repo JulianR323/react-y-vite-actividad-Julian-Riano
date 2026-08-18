@@ -118,6 +118,7 @@ function App() {
       <div className="ticks"></div>
       <section id="spacer"></section>
       <Producto />
+        <Producto />
     </>
   )
 }
