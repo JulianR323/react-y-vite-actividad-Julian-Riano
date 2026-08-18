@@ -1,4 +1,4 @@
-import Producto from './components/Producto.jsx'
+{/*import Producto from "./components/Producto";
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
@@ -116,9 +116,28 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
-      <Producto/> 
+      <Producto />
     </>
   )
 }
 
 export default App
+*/}
+
+
+import Producto from "./components/Producto";
+
+function App() {
+  return (
+    <main className="app">
+      <h1>Wonder Beauty Shop</h1>
+      <section className="catalogo">
+        <Producto />
+        <Producto />
+        <Producto />
+      </section>
+    </main>
+  );
+}
+
+export default App;
