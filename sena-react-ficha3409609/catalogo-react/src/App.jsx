@@ -30,9 +30,6 @@ function App() {
           Count is {count}
         </button>
       </section>
-      <section id="producto-section">
-        <Producto />
-      </section>
 
       <div className="ticks"></div>
 
@@ -119,7 +116,7 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
-      
+      <Producto/> 
     </>
   )
 }
