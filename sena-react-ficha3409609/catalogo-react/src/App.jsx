@@ -1,9 +1,9 @@
+import Producto from './components/Producto.jsx'
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from './assets/vite.svg'
 import heroImg from './assets/hero.png'
 import './App.css'
-import Producto from './components/Producto'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -29,6 +29,9 @@ function App() {
         >
           Count is {count}
         </button>
+      </section>
+      <section id="producto-section">
+        <Producto />
       </section>
 
       <div className="ticks"></div>
@@ -116,7 +119,7 @@ function App() {
 
       <div className="ticks"></div>
       <section id="spacer"></section>
-      <Producto />
+      
     </>
   )
 }
